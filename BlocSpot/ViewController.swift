@@ -12,14 +12,44 @@ import MapKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var mapView: MKMapView!
+    var mapView: MKMapView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //create a mapView
+        mapView = MKMapView()
+        
+        //set vie to mapView
+        view = mapView
+        
+        //segmented views for different types of maps
+        let segmentedControl = UISegmentedControl(items: ["Standard", "Hybrid", "Satellite"])
+        
+        segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
+        
+        segmentedControl.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(segmentedControl)
+        
+        //layout constraints for the seg control, anchor to view
+        let topConstraint = segmentedControl.topAnchor.constraintEqualToAnchor(topLayoutGuide.bottomAnchor, constant: 8)
+        
+        let margins = view.layoutMarginsGuide
+        
+        let leadingConstraint = segmentedControl.leadingAnchor.constraintEqualToAnchor(margins.leadingAnchor)
+        
+        let trailingConstraint = segmentedControl.trailingAnchor.constraintEqualToAnchor(margins.trailingAnchor)
+        
+        //activate constraints
+        topConstraint.active = true
+        
+        leadingConstraint.active = true
+        
+        trailingConstraint.active = true
         
         // initial location set to Lehi, UT
-        let initialLocation = CLLocation(latitude: 40.57, longitude: -111.59)
+        let initialLocation = CLLocation(latitude: 40.57, longitude: -111.75)
         
         
          centerMapOnLocation(initialLocation)

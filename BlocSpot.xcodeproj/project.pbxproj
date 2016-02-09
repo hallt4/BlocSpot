@@ -14,6 +14,7 @@
 		D055B4651C698B7200A3B810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D055B4631C698B7200A3B810 /* LaunchScreen.storyboard */; };
 		D055B4701C698B7200A3B810 /* BlocSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B46F1C698B7200A3B810 /* BlocSpotTests.swift */; };
 		D055B47B1C698B7200A3B810 /* BlocSpotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B47A1C698B7200A3B810 /* BlocSpotUITests.swift */; };
+		D0D32D6F1C699F44005A998F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D32D6E1C699F43005A998F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D055B4761C698B7200A3B810 /* BlocSpotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocSpotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D055B47A1C698B7200A3B810 /* BlocSpotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocSpotUITests.swift; sourceTree = "<group>"; };
 		D055B47C1C698B7200A3B810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D32D6E1C699F43005A998F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D32D6F1C699F44005A998F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		D055B44E1C698B7200A3B810 = {
 			isa = PBXGroup;
 			children = (
+				D0D32D6E1C699F43005A998F /* MapKit.framework */,
 				D055B4591C698B7200A3B810 /* BlocSpot */,
 				D055B46E1C698B7200A3B810 /* BlocSpotTests */,
 				D055B4791C698B7200A3B810 /* BlocSpotUITests */,
@@ -484,6 +488,7 @@
 				D055B4811C698B7200A3B810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D055B4821C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D055B4841C698B7200A3B810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D055B4851C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D055B4871C698B7200A3B810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
