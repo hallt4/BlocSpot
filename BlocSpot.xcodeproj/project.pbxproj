@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D055B45B1C698B7200A3B810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B45A1C698B7200A3B810 /* AppDelegate.swift */; };
+		D055B45D1C698B7200A3B810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B45C1C698B7200A3B810 /* ViewController.swift */; };
+		D055B4601C698B7200A3B810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D055B45E1C698B7200A3B810 /* Main.storyboard */; };
+		D055B4621C698B7200A3B810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D055B4611C698B7200A3B810 /* Assets.xcassets */; };
+		D055B4651C698B7200A3B810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D055B4631C698B7200A3B810 /* LaunchScreen.storyboard */; };
+		D055B4701C698B7200A3B810 /* BlocSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B46F1C698B7200A3B810 /* BlocSpotTests.swift */; };
+		D055B47B1C698B7200A3B810 /* BlocSpotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B47A1C698B7200A3B810 /* BlocSpotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D055B46C1C698B7200A3B810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D055B44F1C698B7200A3B810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D055B4561C698B7200A3B810;
+			remoteInfo = BlocSpot;
+		};
+		D055B4771C698B7200A3B810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D055B44F1C698B7200A3B810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D055B4561C698B7200A3B810;
+			remoteInfo = BlocSpot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D055B4571C698B7200A3B810 /* BlocSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D055B45A1C698B7200A3B810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D055B45C1C698B7200A3B810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D055B45F1C698B7200A3B810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D055B4611C698B7200A3B810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D055B4641C698B7200A3B810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D055B4661C698B7200A3B810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D055B46B1C698B7200A3B810 /* BlocSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D055B46F1C698B7200A3B810 /* BlocSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocSpotTests.swift; sourceTree = "<group>"; };
+		D055B4711C698B7200A3B810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D055B4761C698B7200A3B810 /* BlocSpotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocSpotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D055B47A1C698B7200A3B810 /* BlocSpotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocSpotUITests.swift; sourceTree = "<group>"; };
+		D055B47C1C698B7200A3B810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D055B4541C698B7200A3B810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4681C698B7200A3B810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4731C698B7200A3B810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D055B44E1C698B7200A3B810 = {
+			isa = PBXGroup;
+			children = (
+				D055B4591C698B7200A3B810 /* BlocSpot */,
+				D055B46E1C698B7200A3B810 /* BlocSpotTests */,
+				D055B4791C698B7200A3B810 /* BlocSpotUITests */,
+				D055B4581C698B7200A3B810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D055B4581C698B7200A3B810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D055B4571C698B7200A3B810 /* BlocSpot.app */,
+				D055B46B1C698B7200A3B810 /* BlocSpotTests.xctest */,
+				D055B4761C698B7200A3B810 /* BlocSpotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D055B4591C698B7200A3B810 /* BlocSpot */ = {
+			isa = PBXGroup;
+			children = (
+				D055B45A1C698B7200A3B810 /* AppDelegate.swift */,
+				D055B45C1C698B7200A3B810 /* ViewController.swift */,
+				D055B45E1C698B7200A3B810 /* Main.storyboard */,
+				D055B4611C698B7200A3B810 /* Assets.xcassets */,
+				D055B4631C698B7200A3B810 /* LaunchScreen.storyboard */,
+				D055B4661C698B7200A3B810 /* Info.plist */,
+			);
+			path = BlocSpot;
+			sourceTree = "<group>";
+		};
+		D055B46E1C698B7200A3B810 /* BlocSpotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D055B46F1C698B7200A3B810 /* BlocSpotTests.swift */,
+				D055B4711C698B7200A3B810 /* Info.plist */,
+			);
+			path = BlocSpotTests;
+			sourceTree = "<group>";
+		};
+		D055B4791C698B7200A3B810 /* BlocSpotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D055B47A1C698B7200A3B810 /* BlocSpotUITests.swift */,
+				D055B47C1C698B7200A3B810 /* Info.plist */,
+			);
+			path = BlocSpotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D055B4561C698B7200A3B810 /* BlocSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D055B47F1C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpot" */;
+			buildPhases = (
+				D055B4531C698B7200A3B810 /* Sources */,
+				D055B4541C698B7200A3B810 /* Frameworks */,
+				D055B4551C698B7200A3B810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocSpot;
+			productName = BlocSpot;
+			productReference = D055B4571C698B7200A3B810 /* BlocSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D055B46A1C698B7200A3B810 /* BlocSpotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D055B4821C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotTests" */;
+			buildPhases = (
+				D055B4671C698B7200A3B810 /* Sources */,
+				D055B4681C698B7200A3B810 /* Frameworks */,
+				D055B4691C698B7200A3B810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D055B46D1C698B7200A3B810 /* PBXTargetDependency */,
+			);
+			name = BlocSpotTests;
+			productName = BlocSpotTests;
+			productReference = D055B46B1C698B7200A3B810 /* BlocSpotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D055B4751C698B7200A3B810 /* BlocSpotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D055B4851C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotUITests" */;
+			buildPhases = (
+				D055B4721C698B7200A3B810 /* Sources */,
+				D055B4731C698B7200A3B810 /* Frameworks */,
+				D055B4741C698B7200A3B810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D055B4781C698B7200A3B810 /* PBXTargetDependency */,
+			);
+			name = BlocSpotUITests;
+			productName = BlocSpotUITests;
+			productReference = D055B4761C698B7200A3B810 /* BlocSpotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D055B44F1C698B7200A3B810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hall Mobile";
+				TargetAttributes = {
+					D055B4561C698B7200A3B810 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D055B46A1C698B7200A3B810 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D055B4561C698B7200A3B810;
+					};
+					D055B4751C698B7200A3B810 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D055B4561C698B7200A3B810;
+					};
+				};
+			};
+			buildConfigurationList = D055B4521C698B7200A3B810 /* Build configuration list for PBXProject "BlocSpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D055B44E1C698B7200A3B810;
+			productRefGroup = D055B4581C698B7200A3B810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D055B4561C698B7200A3B810 /* BlocSpot */,
+				D055B46A1C698B7200A3B810 /* BlocSpotTests */,
+				D055B4751C698B7200A3B810 /* BlocSpotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D055B4551C698B7200A3B810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055B4651C698B7200A3B810 /* LaunchScreen.storyboard in Resources */,
+				D055B4621C698B7200A3B810 /* Assets.xcassets in Resources */,
+				D055B4601C698B7200A3B810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4691C698B7200A3B810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4741C698B7200A3B810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D055B4531C698B7200A3B810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055B45D1C698B7200A3B810 /* ViewController.swift in Sources */,
+				D055B45B1C698B7200A3B810 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4671C698B7200A3B810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055B4701C698B7200A3B810 /* BlocSpotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D055B4721C698B7200A3B810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055B47B1C698B7200A3B810 /* BlocSpotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D055B46D1C698B7200A3B810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D055B4561C698B7200A3B810 /* BlocSpot */;
+			targetProxy = D055B46C1C698B7200A3B810 /* PBXContainerItemProxy */;
+		};
+		D055B4781C698B7200A3B810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D055B4561C698B7200A3B810 /* BlocSpot */;
+			targetProxy = D055B4771C698B7200A3B810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D055B45E1C698B7200A3B810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D055B45F1C698B7200A3B810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D055B4631C698B7200A3B810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D055B4641C698B7200A3B810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D055B47D1C698B7200A3B810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D055B47E1C698B7200A3B810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D055B4801C698B7200A3B810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlocSpot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D055B4811C698B7200A3B810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlocSpot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D055B4831C698B7200A3B810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocSpotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlocSpot.app/BlocSpot";
+			};
+			name = Debug;
+		};
+		D055B4841C698B7200A3B810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocSpotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlocSpot.app/BlocSpot";
+			};
+			name = Release;
+		};
+		D055B4861C698B7200A3B810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocSpotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlocSpot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D055B4871C698B7200A3B810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocSpotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bloc.io.BlocSpotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlocSpot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D055B4521C698B7200A3B810 /* Build configuration list for PBXProject "BlocSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055B47D1C698B7200A3B810 /* Debug */,
+				D055B47E1C698B7200A3B810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D055B47F1C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055B4801C698B7200A3B810 /* Debug */,
+				D055B4811C698B7200A3B810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D055B4821C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055B4831C698B7200A3B810 /* Debug */,
+				D055B4841C698B7200A3B810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D055B4851C698B7200A3B810 /* Build configuration list for PBXNativeTarget "BlocSpotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055B4861C698B7200A3B810 /* Debug */,
+				D055B4871C698B7200A3B810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D055B44F1C698B7200A3B810 /* Project object */;
+}
