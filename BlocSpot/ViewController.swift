@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         
         segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
         
+        segmentedControl.selectedSegmentIndex = 0
+        
+        segmentedControl.addTarget(self, action: "mapTypeChanged:", forControlEvents: .ValueChanged)
+        
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(segmentedControl)
@@ -59,6 +63,19 @@ class ViewController: UIViewController {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
             regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    func mapTypeChanged(segControl: UISegmentedControl){
+        switch segControl.selectedSegmentIndex {
+        case 0:
+            mapView.mapType = .Standard
+        case 1:
+            mapView.mapType = .Hybrid
+        case 2:
+            mapView.mapType = .Satellite
+        default:
+            break
+        }
     }
 
     
