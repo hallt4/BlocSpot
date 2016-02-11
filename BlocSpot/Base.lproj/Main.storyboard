@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MtB-aP-Xpa">
+                                <rect key="frame" x="0.0" y="-27" width="600" height="627"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MtB-aP-Xpa" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Mg9-iM-SiU"/>
+                            <constraint firstItem="MtB-aP-Xpa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-27" id="TzG-Up-r4U"/>
+                            <constraint firstItem="MtB-aP-Xpa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="loO-0T-tG9"/>
+                            <constraint firstAttribute="trailing" secondItem="MtB-aP-Xpa" secondAttribute="trailing" id="nfQ-sD-MhZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="MtB-aP-Xpa" id="7fY-ja-WOF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="215" y="388"/>
+            <point key="canvasLocation" x="377" y="286"/>
         </scene>
     </scenes>
 </document>
